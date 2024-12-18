@@ -28,12 +28,12 @@ export const Header = () => {
                   {t('header.DESCRIPTION')} 💪
                 </Paragraph>
               </blockquote>
-              <Button
+              {/* <Button
                 onClick={handleModal}
                 aria-label='Open the modal window and get in touch'
               >
                 {t('button.HIRE')}
-              </Button>
+              </Button> */}
             </div>
 
             <div className={styles.image}>
