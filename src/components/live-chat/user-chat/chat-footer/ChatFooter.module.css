@@ -1,0 +1,22 @@
+.chatFooterWrap {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: var(--shadow-light);
+}
+
+.chatFooterWrap div {
+  margin: 0;
+}
+
+.chatFooterWrap textarea {
+  background: transparent;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0 0 0 10px;
+  resize: none;
+  overflow: auto;
+  max-height: 70px;
+  border: none;
+}

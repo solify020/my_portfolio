@@ -1,0 +1,16 @@
+.pagesHead {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h2 {
+  margin: 0;
+  padding-left: 10px;
+}

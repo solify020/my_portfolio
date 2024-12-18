@@ -1,0 +1,9 @@
+.qualities {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.qualities:last-child {
+  margin-bottom: 25px;
+}

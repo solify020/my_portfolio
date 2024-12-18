@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  background-color: var(--background-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background-image: radial-gradient(
+    circle at 50% 0,
+    rgba(99, 230, 226, 0.05),
+    rgba(0, 0, 0, 0) 60%
+  );
+}

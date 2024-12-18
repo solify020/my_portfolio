@@ -1,0 +1,15 @@
+.headImg {
+  margin-bottom: 50px;
+}
+
+.headImg img {
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 765px) {
+  .headImg {
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,41 @@
+.toolbarContainer {
+  padding: 3px;
+  width: fit-content;
+  display: flex;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  transition: border 0.3s ease-in-out;
+}
+
+.toolbarSwitch {
+  width: 25px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: inherit;
+}
+
+.toolbarSwitch:active {
+  background-color: rgba(128, 128, 128, 0.35);
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.switchLang {
+  position: relative;
+}
+
+.switchLang::before {
+  content: '';
+  width: 1px;
+  height: 70%;
+  background-color: var(--border-color);
+  position: absolute;
+  left: -1px;
+  top: 3px;
+}

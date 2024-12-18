@@ -1,0 +1,74 @@
+:root {
+  /* colors */
+  --main-color: #ffb400;
+  --main-color-red: #ff6d6d;
+  --secondary-color: #2b2b2b;
+  --white-color: #fff;
+  --red-color: #ff0000;
+  --orange-color: #ffa500;
+  --green-color: #008000;
+  --dark-yellow-color: #ffb40033;
+  --bg-color: #f0f0f6;
+  --bg-color-body-dark: #101010;
+  --bg-color-body-dark-secondary: #18191a;
+  --bg-color-container: rgba(242, 242, 242, 0.04);
+  --bg-color-container-old: #242526;
+  --bg-color-grey: #f0f0f6;
+  --bg-color-admin-message: #2e8b57;
+  --bg-color-user-message: #9370d8;
+  --font-color-main: #767676;
+  --border-color-dark: rgba(242, 242, 242, 0.04);
+  --border-color: rgba(105, 105, 105, 0.397);
+
+  /* linear gradient */
+  --bg-linear: linear-gradient(330deg, #ffb400 20%, #ff6d6d 100%);
+  --bg-linear-reverse: linear-gradient(330deg, #ff6d6d 20%, #ffb400 100%);
+  --bg-linear-button: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  --bg-lianer-loader: no-repeat
+    linear-gradient(#000 calc(50% - 10px), #0000 0 calc(50% + 10px), #000 0);
+  --bg-overlay-color: rgba(0, 0, 0, 0.5);
+  --loader-bg: conic-gradient(#0000 10%, #000),
+    linear-gradient(#000 0 0) content-box;
+  --title-linear-dark: linear-gradient(to right, white -250%, black 600%);
+  --title-linear-light: linear-gradient(to right, white -700%, black 600%);
+
+  /* font size */
+  --font-size-xs-mobile: 0.75em;
+  --font-size-xs: 0.875em;
+  --font-size-sm: 1em;
+  --font-size-md-mobile: 1.5em;
+  --font-size-md: 2em;
+  --font-size-lg-mobile: 2.5em;
+  --font-size-lg: 3em;
+
+  /* font weight */
+  --font-weight-lighter: 300;
+  --font-weight-normal: 400;
+  --font-weight-regular: 500;
+  --font-weight-bold: 600;
+  --font-weight-bolder: 800;
+
+  /* font height */
+  --line-height: 1.5;
+
+  /* border radius */
+  --border-radius: 5px;
+  --border-radius-card: 15px;
+
+  /* blur */
+  --blur-overlay: blur(10px);
+
+  /* box shadow */
+  --shadow-light: 0 10px 10px #0505060d;
+  --shadow-dark: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --shadow-chat: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  --shadow-button: 0px 0px 14px -7px #f09819;
+  --shadow-hover: 0px 0px 30px 1px rgba(255, 81, 47, 0.3);
+}

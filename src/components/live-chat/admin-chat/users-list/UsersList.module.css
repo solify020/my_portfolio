@@ -1,0 +1,53 @@
+.userList {
+  display: none;
+}
+
+.openUsersList {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  overflow: auto;
+  background-color: var(--background-color);
+}
+
+.item {
+  padding: 5px;
+  color: var(--text-color);
+  margin: 0 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  background: var(--bg-linear);
+  color: var(--white-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.userName {
+  cursor: pointer;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.controlButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .openUsersList {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}

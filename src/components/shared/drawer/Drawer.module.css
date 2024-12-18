@@ -1,0 +1,44 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-overlay-color);
+  backdrop-filter: var(--blur-overlay);
+  z-index: 999;
+}
+
+.drawer {
+  width: 280px;
+  height: 100dvh;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  background-color: var(--bg-box-color);
+}
+
+.drawerRight {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.drawerRight.open {
+  transform: translateX(0);
+}
+
+.drawerLeft {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.drawerLeft.open {
+  transform: translateX(0);
+}
+
+.content {
+  height: 100%;
+  padding: 10px;
+}

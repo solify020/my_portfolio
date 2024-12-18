@@ -1,0 +1,22 @@
+.dropListContainer {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 1;
+  background-color: var(--bg-box-color);
+  box-shadow: var(--box-shadow);
+  width: max-content;
+}
+
+.item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgba(128, 128, 128, 0.35);
+}

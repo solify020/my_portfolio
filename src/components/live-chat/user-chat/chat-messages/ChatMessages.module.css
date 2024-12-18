@@ -1,0 +1,75 @@
+.messagesContent {
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+  background-color: var(--bg-body-color);
+  scrollbar-width: none;
+}
+
+.messagesContent::-webkit-scrollbar {
+  display: none;
+}
+
+.admin,
+.user {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.user {
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.adminMessage,
+.userMessage {
+  text-align: unset;
+  max-width: 320px;
+  min-width: 100px;
+  display: inline-block;
+  border-radius: 15px;
+  color: var(--white-color);
+  box-shadow: var(--shadow-light);
+  overflow-wrap: break-word;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  padding: 10px;
+}
+
+.adminMessage {
+  background-color: var(--bg-color-admin-message);
+  margin-right: 15px;
+  align-self: flex-start;
+  border-radius: 15px 15px 15px 0;
+}
+
+.userMessage {
+  background-color: var(--bg-color-user-message);
+  margin-left: 15px;
+  align-self: flex-end;
+  border-radius: 15px 15px 0 15px;
+}
+
+.adminMessage p,
+.userMessage p {
+  margin-bottom: 10px;
+  text-align: unset;
+  line-height: normal;
+}
+
+.time {
+  position: absolute;
+  right: 15px;
+  bottom: 3px;
+}
+
+@media screen and (max-width: 320px) {
+  .adminMessage,
+  .userMessage {
+    max-width: 250px;
+  }
+}

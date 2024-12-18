@@ -1,0 +1,17 @@
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.version {
+  font-size: var(--font-size-xs-mobile);
+  margin: 5px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContent {
+    padding: 5px;
+  }
+}

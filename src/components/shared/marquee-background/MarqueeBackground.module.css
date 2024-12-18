@@ -1,0 +1,87 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+  background-color: var(--bg-overlay-color);
+  backdrop-filter: var(--blur-overlay);
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11.5em;
+  font-weight: var(--font-weight-bolder);
+  color: var(--text-color);
+  opacity: 0.2;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.marqueeContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.leftToRight {
+  animation: leftToRight 90s linear infinite;
+}
+
+.rightToLeft {
+  animation: rightToLeft 90s linear infinite;
+}
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    backdrop-filter: blur(10px);
+  }
+
+  .marquee {
+    font-size: 9.5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .marquee {
+    font-size: 8.5em;
+  }
+}

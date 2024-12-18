@@ -1,0 +1,30 @@
+.chatHeadContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  cursor: move;
+}
+
+.contactWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 3px 10px 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.status {
+  color: var(--green-color);
+  font-size: var(--font-size-xs-mobile);
+}

@@ -1,0 +1,85 @@
+.chatWindow {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-body-color);
+  padding: 10px;
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+
+.emptyWindow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userBadge {
+  display: flex;
+  justify-content: center;
+}
+
+.messagesContent {
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+  background-color: var(--bg-body-color);
+  scrollbar-width: none;
+}
+
+.adminMessage,
+.userMessage {
+  text-align: unset;
+  max-width: 300px;
+  min-width: 100px;
+  display: inline-block;
+  border-radius: 15px;
+  color: var(--white-color);
+  box-shadow: var(--shadow-light);
+  overflow-wrap: break-word;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  padding: 10px;
+}
+
+.adminMessage p,
+.userMessage p {
+  margin-bottom: 10px;
+  text-align: unset;
+  line-height: normal;
+}
+
+.adminMessage {
+  background-color: var(--bg-color-admin-message);
+}
+
+.userMessage {
+  background-color: var(--bg-color-user-message);
+}
+
+.admin,
+.user {
+  display: flex;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.admin {
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.time {
+  color: var(--white-color);
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  display: flex;
+  width: 100%;
+  font-size: 10px;
+}

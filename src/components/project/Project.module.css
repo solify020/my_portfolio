@@ -1,0 +1,42 @@
+.container {
+  padding: 20px 0;
+}
+
+.stack {
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  margin: 0 0 25px;
+}
+
+.stack::-webkit-scrollbar {
+  display: none;
+}
+
+.arrowButtonsWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.arrowButton {
+  visibility: hidden;
+}
+
+.arrowButton.visible {
+  visibility: visible;
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .container {
+    padding: 10px 0;
+  }
+}

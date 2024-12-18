@@ -1,0 +1,36 @@
+.notFoundContainer {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.number {
+  font-size: 10.5em;
+  color: var(--main-color);
+  font-weight: var(--font-weight-bold);
+  position: relative;
+}
+
+.icon {
+  width: 110px;
+  position: absolute;
+  bottom: 6px;
+  right: 102px;
+}
+
+@media screen and (max-width: 840px) {
+  .number {
+    font-size: 6.5em;
+  }
+
+  .icon {
+    width: 65px;
+    bottom: 4px;
+    right: 65px;
+  }
+}

@@ -1,0 +1,242 @@
+{
+    "button": {
+        "HIRE": "Get in touch",
+        "SEND_MESSAGE": "Send message",
+        "DOWNLOAD": "Download CV",
+        "GO_BACK": "Go back",
+        "JOIN": "Join"
+    },
+    "chat": {
+        "JOIN_TO_CHAT": "Hey! Let's join to chat",
+        "ONLINE_STATUS": "online",
+        "HI": "Hi",
+        "HOW_ARE_YOU": "How are you?",
+        "NAME": "Lesiu",
+        "setting_buttons": {
+            "DELETE_CHAT": "Disconnect",
+            "DELETE_CHAT_HISTORY": "Delete chat history",
+            "RESIZE_WINDOW": "resize window"
+        }
+    },
+    "navigation": {
+        "HOME": "Home",
+        "SERVICES": "Services",
+        "PORTFOLIO": "Portfolio",
+        "RECOMMEND": "Testimonials",
+        "WORK_HISTORY": "Work history",
+        "EDUCATION": "Education",
+        "ABOUT_ME": "About me",
+        "PROJECTS": "Projects"
+    },
+    "header": {
+        "NAME": "Hi! I'm Lesiu",
+        "PATH": "Blockchain",
+        "SPECIALTY": "Developer",
+        "DESCRIPTION": "Combining modern technology and creativity, I build websites and apps that will help you achieve your goals"
+    },
+    "myServices": {
+        "TITLE": "My services for your business",
+        "SUBTITLE": "Transforming your ideas into reality with professional blockchain development",
+
+        "cards": {
+            "FRONT_END_DEVELOPMENT_TITLE": "Blockchain development",
+            "FRONT_END_DEVELOPMENT_TEXT": "Development of Solidity, Rust. DEX platform Apps and Games.",
+            "RESPONSIVE_DESIGN_TITLE": "Optimized Smart Contracts",
+            "RESPONSIVE_DESIGN_TEXT": "Fully Optimized Smart Contracts so save deployment Gas Fee.",
+            "API_BACKEND_INTEGRATION_TITLE": "Crypto Token Launch",
+            "API_BACKEND_INTEGRATION_TEXT": "Crypto Token Launch with Tokenomics site",
+            "PERFORMANCE_OPTIMIZATION_TITLE": "Crypto Trading Bot development",
+            "PERFORMANCE_OPTIMIZATION_TEXT": "Solana, Ethereum Volume bot, Arbitrage bot, NFT Sniper bot, Wallet Crawler bot",
+            "CROSS_BROWSER_COMPATIBILITY_TITLE": "Crypto Casino, Betting Games",
+            "CROSS_BROWSER_COMPATIBILITY_TEXT": "Crypto DEX Casino and Sports Betting Game development.",
+            "TECHNICAL_SUPPORT_TITLE": "Technical support",
+            "TECHNICAL_SUPPORT_TEXT": "Updating and supporting existing code to ensure stable operation of the application"
+        }
+    },
+    "education": {
+        "TITLE": "Education",
+        "SUBTITLE": "My education journey and the qualifications I have obtained",
+        "table": {
+            "udemy": {
+                "NAME": "Federal University of Santa Catarina",
+                "POSITION": "Bachelor of Computer Science",
+                "TITLE": "Blockchain & Crypto Development",
+                "DESCRIPTION": "In-depth learning Blockchain technologies including Bitcoin, EVM, Solana. Smart Contracts and DEX platform"
+            },
+            "imt": {
+                "NAME": "Federal University of Santa Catarina",
+                "POSITION": "High School's Degree",
+                "TITLE": "Web development",
+                "DESCRIPTION": "Learning HTML, CSS, JavaScript, and frameworks to create dynamic and responsive website"
+            },
+            "institute": {
+                "NAME": "Federal University of Santa Catarina",
+                "POSITION": "Student",
+                "TITLE": "Computer Engineering",
+                "DESCRIPTION": "Learning of Basics of Computer and Programming (C/C++)"
+            }
+        }
+    },
+    "SKILLS": {
+        "TITLE": "Skills & Experience",
+        "SUBTITLE": "My passion lies in the technical implementation and support of complex business needs, and I strive to be part of the decision-making process",
+        "MORE_ME_LINK": "More about me"
+    },
+    "workHistory": {
+        "TITLE": "Work history",
+        "SUBTITLE": "My professional journey and work experience",
+        "table": {
+            "elementica": {
+                "NAME": "Sonex Digital(Remote Job, OR, United States)",
+                "POSITION": "Blockchain Developer",
+                "TITLE": "Creating Blockchain applications and solutions",
+                "DESCRIPTION": "At 'Sonex Digital' as a Blockchain developer, I collaborated with the team to develop and enhance the product, made strategic technical decisions, and contributed to achieving our common goals. My responsibilities included: optimizing smart contracts, ensuring high-quality code, and implementing innovative solutions to drive our product forward"
+            },
+            "freelance": {
+                "NAME": "Freelance",
+                "POSITION": "Web developer",
+                "TITLE": "Creating websites",
+                "DESCRIPTION": "I was creating websites for clients using HTML, CSS, Jquery, Bootstrap, Gulp.js, and JavaScript"
+            }
+        }
+    },
+    "portfolio": {
+        "TITLE": "Explore my projects",
+        "SUBTITLE": "Main commercial projects in development that I participated in both collaboratively with my team and independently",
+        "projects": {
+            "tutiffy": {
+                "NAME": "Tuttify",
+                "DESCR": "Educational platform",
+                "MAIN_INFO": "Developed an educational platform for children and their parents. Core features include a live chat/video streams, live activities between users, internationalization, user generated content",
+                "about": {
+                    "p_1": {
+                        "TEXT_1": "Frontend team - 4 developers. Backend team - 4 developers. QA team - 2 developers.",
+                        "TEXT_2": "Main goal of this app is to empower children and students to explore, imagine and engage with ideas as they learn and to help parents or family members to communicate with children by participating in lessons, games, and even sharing story time.",
+                        "TEXT_3": "Project had a complex structure with 6 frontend apps and 7 backend microservices on Node.js and Python. Core features - live chat/video streams, live activities between users, multitenancy, internationalization, user generated content, moderation, kids accounts, payments, automated/manual tests, CI/CD, etc."
+                    },
+                    "p_2": {
+                        "TEXT_1": "On the project, I focused on interface development, including creating user-friendly navigation, designing and placing educational content, and interacting with the backend through REST API or GraphQL.",
+                        "TEXT_2": "Additionally, I worked on enhancing the user experience by adding animations, intuitive controls, and optimized workflows.",
+                        "TEXT_3": "Overall, working on the project was an interesting and productive experience that helped me develop skills in frontend development, multilingual support, and web application performance optimization."
+                    }
+                }
+            },
+            "ASX": {
+                "NAME": "Betwie Casino & Sports",
+                "DESCR": "Online Casino & Sports betting platform",
+                "MAIN_INFO": "Developed a casino & sports betting platform. Core features include a selection of sports and bet types, live streaming, statistics and analytics, a personal wallet, as well as bonuses and promotions",
+                "about": {
+                    "p_1": {
+                        "TEXT_1": "Frontend team - 2 developers. Backend team - 2 developers. QA team - 1 developer.",
+                        "TEXT_2": "The project was a multifaceted platform that allowed users to register their accounts, buy in-game currency, and place bets on their favorite teams during live streams.",
+                        "TEXT_3": "Consisted of a core platform as well as an admin panel through which the administrator could fully manage the core application and user support."
+                    },
+                    "p_2": {
+                        "TEXT_1": "The app is developed using Next for the frontend part and Express for the backend part.",
+                        "TEXT_2": "On the project I was engaged in development of UI components, implementation of new features such as - full user registration using Keycloack, connection of Stripe payment system, connection of SumSab library for user verification, etc. I also got experience in the backend.",
+                        "TEXT_3": "What I found interesting was participating in rallies with the CTO and the customer where we discussed the business logic of the application. I also enjoyed expressing my ideas, which in the future were turned into reality."
+                    }
+                }
+            },
+            "maven": {
+                "NAME": "Maven 11",
+                "DESCR": "Landing page for a crypto fund",
+                "MAIN_INFO": "Developed a landing page for a cryptocurrency fund include an attractive design, information about the fund and its transparency, interactive charts, investor testimonials",
+                "about": {
+                    "p_1": {
+                        "TEXT_1": "Frontend team - 1 developer. QA team - 1 developer.",
+                        "TEXT_2": "Landing page for a foundation, main goal to attract new clients.",
+                        "TEXT_3": "The project is implemented using HTML, SCSS, and the GSAP library. The task I was given was to create a dynamic website using animations."
+                    },
+                    "p_2": {
+                        "TEXT_1": "On the project, I did the development on my own under the guidance of the CTO. I solved all the technical tasks and problems myself, which gave me experience in organizing projects.",
+                        "TEXT_2": "The interesting and challenging part for me was working with the GSAP library, where it took a lot of time to learn all the intricacies and the right approach, which gave me additional experience in developing complex animations.",
+                        "TEXT_3": "Also together with QA we conducted functional testing and fixed all the issues in a short period of time."
+                    }
+                }
+            }
+        }
+    },
+    "form": {
+        "TITLE": "Leave me your info",
+        "TEXT_ME_MESSENGERS": "Or contact me via the messengers",
+        "error": {
+            "CONTACT_ME_IF_ERROR": "Ops, something went wrong! Please, contact me via the messengers",
+            "ENTER_NAME": "Please enter your name",
+            "ENTER_EMAIL": "Please enter your email",
+            "ENTER_MESSAGE": "Please enter a message",
+            "EMAIL_NOT_VALID": "The email is not valid",
+            "SHORT_NAME": "Hmm, too short of a name",
+            "SHORT_MESSAGE": "Please write the message a bit more"
+        }
+    },
+    "toast": {
+        "success": {
+            "EMAIL_SENT": "Thanks! Your email has been sent",
+            "SUCCESS_DELETE_USER": "User has been deleted"
+        },
+        "error": {
+            "WRONG": "Something went wrong!",
+            "FAILED_DELETE_CHAT_HISTORY": "Failed to delete chat history",
+            "FAILED_DELETE_CHAT": "Failed to delete chat",
+            "FAILED_DELETE_USER": "Failed to delete user",
+            "FAILED_GET_MESSAGES": "Failed to get messages"
+        },
+        "info": {
+            "FIXING": "I'm already fixing the problem"
+        }
+    },
+    "input": {
+        "placeholder": {
+            "YOUR_NAME": "Your name",
+            "YOUR_EMAIL": "Your email",
+            "YOUR_SUBJECT": "Subject",
+            "YOUR_MESSAGE": "Your message",
+            "WHATS_NAME": "What's your name?"
+        }
+    },
+    "pages": {
+        "project": {
+            "MY_PROJECT": "My project",
+            "LIVE_DEMO": "Live Demo",
+            "seo": {
+                "PLATFORM_WHERE_USER": "Platform where users could buy in-game currency and bet on their favorite team on live streams",
+                "ABOUT_PROJECT": "About the project I developed"
+            }
+        },
+        "mainPage": {
+            "seo": {
+                "TITLE": "Blockchain Developer | Lesiu Simmons",
+                "DISCOVER_MORE": "Discover more about my skills, projects, and work experience",
+                "THE_BEST": "The best Blockchain Developer in the world",
+                "PORTFOLIO_OF": "Portfolio of a Blockchain Developer"
+            }
+        },
+        "notFound": {
+            "NOT_FOUND_TAB": "404 | Not found",
+            "NOT_FOUND": "PAGE NOT FOUND!!!",
+            "RETURN_HOME": "Don't panic just click the big button to return home"
+        },
+        "aboutMe": {
+            "TITLE": "About me",
+            "HEY_NICE_MEET": "Hey! Nice to meet you",
+            "TECHNOLOGIES_SUB_TITLE": "The basic technologies I use in my work",
+            "HOBBIES_SUB_TITLE": "Hobbies",
+            "LANG_SUB_TITLE": "Languages",
+            "QUALITIES_SUB_TITLE": "Professional qualities",
+            "GOT_IN_DEV_SUB_TITLE": "How I got into development",
+            "MY_CAREER": "I'm a Blockchain developer with 4 years of commercial experience in creating applications of varying complexity. I always adhere to best development practices.",
+            "HOBBIES": "Sports, Musical Art, traveling, learning English, active leisure, and socializing with friends - these are the main aspects of my hobbies. I enjoy maintaining an active lifestyle, exploring new places, improving language skills, finding engaging ways to spend free time, and connecting with close friends.",
+            "DEVELOPMENT": "My passion for development began with small projects and experiments. Over time, I realized that I wanted to delve deeper into this field and made it my profession. I continued to learn, attended courses and workshops to expand my knowledge and skills. Now, I am happy to share my experience and help create unique and functional web applications.",
+            "QUALITIE_TEAMWORK": "Teamwork:",
+            "QUALITIE_TEAMWORK_TEXT": "experienced in working collaboratively with team members and communicating effectively with colleagues.",
+            "QUALITIE_ADAPTABILITY": "Adaptability:",
+            "QUALITIE_ADAPTABILITY_TEXT": "ready to work in a dynamic environment and make technical decisions to achieve common goals.",
+            "QUALITIE_LEARNING": "Continuous learning:",
+            "QUALITIE_LEARNING_TEXT": "committed to keeping up with industry trends and expanding technical skills.",
+            "seo": {
+                "TITLE": "About me"
+            }
+        }
+    }
+}

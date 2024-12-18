@@ -1,0 +1,82 @@
+.chat {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  max-height: 550px;
+  border: 1px solid transparent;
+  z-index: 3;
+  overflow: hidden;
+  box-shadow: var(--shadow-chat);
+  transition:
+    max-width 0.5s ease-in-out,
+    max-height 0.5s ease-in-out;
+
+  background:
+    linear-gradient(var(--bg-box-color), var(--bg-box-color))
+      padding-box,
+    linear-gradient(
+        103.55deg,
+        #7152dc 16.12%,
+        #2886a9 41.87%,
+        rgba(63, 122, 144, 0.53) 84.45%
+      )
+      border-box;
+}
+
+.zoomWindow {
+  max-width: 700px;
+  max-height: 800px;
+}
+
+.openButton {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+
+.openButton button {
+  padding: 7px;
+  border-radius: 20px;
+  opacity: 0.9;
+  text-transform: capitalize;
+  font-size: var(--font-size-xs);
+}
+
+.lengthWarning {
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 3px;
+  color: var(--white-color);
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .openButton {
+    bottom: 15px;
+    left: 0px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .chat {
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: 100dvh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .chat {
+    bottom: 0;
+    left: 0;
+  }
+}

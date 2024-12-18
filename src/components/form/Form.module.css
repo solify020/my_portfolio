@@ -1,0 +1,11 @@
+.contacts,
+.reCaptcha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reCaptcha {
+  margin-bottom: 20px;
+}

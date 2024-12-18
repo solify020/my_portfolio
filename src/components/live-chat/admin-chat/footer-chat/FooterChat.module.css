@@ -1,0 +1,17 @@
+.footerChat {
+  display: flex;
+}
+
+.footerChat > div {
+  margin: 0;
+}
+
+.footerChat textarea {
+  overflow: auto;
+  max-height: 90px;
+  resize: none;
+}
+
+.footerChat textarea:focus {
+  border: 1px solid var(--border-color);
+}

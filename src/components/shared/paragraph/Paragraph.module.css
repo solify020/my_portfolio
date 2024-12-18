@@ -1,0 +1,4 @@
+.paragraph {
+  line-height: var(--line-height);
+  text-align: center;
+}

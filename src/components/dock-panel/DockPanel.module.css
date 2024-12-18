@@ -1,0 +1,53 @@
+.dockPanelContainer {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.dockPanelContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 5px;
+  border-radius: var(--border-radius);
+  border: 0.5px solid var(--border-color);
+  backdrop-filter: blur(5px);
+}
+
+.navList {
+  position: relative;
+}
+
+.navList::after {
+  content: '';
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: var(--border-color);
+  position: absolute;
+  right: -6px;
+  top: 0;
+}
+
+.socialList {
+  display: block;
+  position: relative;
+}
+
+.socialList::before {
+  content: '';
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: var(--border-color);
+  position: absolute;
+  right: -6px;
+  top: 0;
+}
+
+@media screen and (max-width: 461px) {
+  .socialList {
+    display: none;
+  }
+}

@@ -1,0 +1,80 @@
+.button {
+  padding: 12px 18px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--secondary-color);
+  border-radius: 10px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  box-shadow: var(--shadow-button);
+  background-image: var(--bg-linear-button);
+}
+
+.button:hover {
+  background-position: right center;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button svg {
+  color: var(--secondary-color);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.loaderWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 15px;
+  aspect-ratio: 1;
+  background:
+    var(--bg-lianer-loader) 0% 100%,
+    var(--bg-lianer-loader) 50% 100%,
+    var(--bg-lianer-loader) 100% 100%;
+  background-size: 20% calc(200% + 20px);
+  animation: animate 1s infinite linear;
+}
+@keyframes animate {
+  33% {
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 100%;
+  }
+  50% {
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 100%;
+  }
+  66% {
+    background-position:
+      0% 0%,
+      50% 0%,
+      100% 50%;
+  }
+  100% {
+    background-position:
+      0% 0%,
+      50% 0%,
+      100% 0%;
+  }
+}

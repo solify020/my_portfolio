@@ -1,0 +1,48 @@
+.projectCardContainer {
+  border-radius: var(--border-radius);
+  border: 0.5px solid var(--border-color);
+  overflow: hidden;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding-top: 55%;
+  width: 100%;
+  display: block;
+  margin: 0 0 5px;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 8px;
+}
+
+.nameProject {
+  margin: 0 0 5px;
+  color: var(--text-color);
+}
+
+.textContent {
+  text-align: left;
+  margin: 0 0 25px;
+  font-size: var(--font-size-xs);
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--font-size-xs-mobile);
+}

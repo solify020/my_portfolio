@@ -1,0 +1,14 @@
+.buttonsWrap {
+  display: flex;
+  align-items: center;
+}
+
+.zoomButton {
+  display: block;
+}
+
+@media screen and (max-width: 550px) {
+  .zoomButton {
+    display: none;
+  }
+}

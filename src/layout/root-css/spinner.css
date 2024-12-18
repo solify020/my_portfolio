@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-body-dark);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11111;
+}
+
+.loader::before {
+  content: 'vladfrontend.pro';
+  padding: 12px 48px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    #9f9f9f 0,
+    var(--white-color) 10%,
+    #868686 20%
+  );
+  background-position: 0;
+  background-clip: text;
+  color: transparent;
+  font-weight: var(--font-weight-bolder);
+  font-size: var(--font-size-md-mobile);
+  animation: shine 1.2s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loader::before {
+    font-size: var(--font-size-sm);
+  }
+}

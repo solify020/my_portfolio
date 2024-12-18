@@ -1,0 +1,18 @@
+.flipWordContainer {
+  position: relative;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.words {
+  position: absolute;
+  inset: 0;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 934px) {
+  .flipWordContainer {
+    height: 30px;
+  }
+}

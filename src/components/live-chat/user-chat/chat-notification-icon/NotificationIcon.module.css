@@ -1,0 +1,48 @@
+.count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xs-mobile);
+  position: absolute;
+  top: -15px;
+  right: 4px;
+  animation: bounce 2s infinite;
+}
+
+.count span {
+  transform: rotate(0);
+}
+
+@media screen and (max-width: 550px) {
+  .count {
+    top: unset;
+    bottom: -21px;
+    right: 6px;
+  }
+
+  .count span {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

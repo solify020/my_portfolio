@@ -1,0 +1,50 @@
+.title {
+  color: var(--text-color);
+  font-size: var(--font-size-md);
+  margin: 0 0 15px;
+}
+
+.gradient {
+  background: var(--title-color-linear);
+  color: transparent;
+  background-clip: text;
+}
+
+.xs {
+  font-size: var(--font-size-xs);
+}
+
+.sm {
+  font-size: var(--font-size-sm);
+}
+
+.lg {
+  font-size: var(--font-size-lg);
+}
+
+.normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-md-mobile);
+    margin: 0 0 15px;
+  }
+
+  h4.title {
+    font-size: var(--font-size-sm);
+  }
+
+  h3.title {
+    font-size: var(--font-size-sm);
+  }
+}
