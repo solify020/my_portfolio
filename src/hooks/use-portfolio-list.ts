@@ -6,9 +6,9 @@ import {
   maven,
   mavenPageRirst,
   mavenPageSecond,
-  tutiffy,
-  tutiffyPageRirst,
-  tutiffyPageSecond,
+  chowWow,
+  chowWowFirst,
+  chowWowSecond
 } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { PortfolioListType } from '../types'
@@ -18,27 +18,27 @@ export const usePortfolioList = () => {
   const portfolioList: PortfolioListType[] = [
     {
       id: 1,
-      link: TUTTIFY_URL,
-      srcPageFirst: tutiffyPageRirst,
-      srcPageSecond: tutiffyPageSecond,
-      src: tutiffy,
-      project: t('portfolio.projects.tutiffy.NAME'),
-      title: t('portfolio.projects.tutiffy.DESCR'),
-      description: t('portfolio.projects.tutiffy.MAIN_INFO'),
+      link: "#",
+      srcPageFirst: chowWowFirst,
+      srcPageSecond: chowWowSecond,
+      src: chowWow,
+      project: "$ChowWow on SOL",
+      title: "Token Sale Site",
+      description: "Developed Token presale pad and Tokenomics Site. With strong skill in Solana and Rust. Skillful Next.js Frontend.",
       about: [
         {
           paragraphFirst: {
-            textOne: t('portfolio.projects.tutiffy.about.p_1.TEXT_1'),
-            textTwo: t('portfolio.projects.tutiffy.about.p_1.TEXT_2'),
-            textThree: t('portfolio.projects.tutiffy.about.p_1.TEXT_3'),
+            textOne: "Frontend - 1 developer. Blockchain - 1 developer(Solify).",
+            textTwo: "Developed from UI/UX design to Token sale Smart Contract with a talented Frontend Developer.",
+            textThree: "Project has structured 9 parts. Overview(Token Presale), Token News, Gaming World, Token Features, Tokenomics, Roadmap, FAQ, Meme Competition, Funding Strategy",
           },
           paragraphSecond: {
-            textOne: t('portfolio.projects.tutiffy.about.p_2.TEXT_1'),
-            textTwo: t('portfolio.projects.tutiffy.about.p_2.TEXT_2'),
-            textThree: t('portfolio.projects.tutiffy.about.p_2.TEXT_3'),
+            textOne: "Play-to-Earn Game",
+            textTwo: "Developed Play-to-Earn Game for more Token buyers and Token sale",
+            textThree: "While develop the project, Focused on Smart Contract, RWD and Pixel Perfect",
           },
           stack:
-            '#React #TypeScript #Redux Toolkit #RTK Query #Apollo GraphQL #i18next #Material UI',
+            '#Solana #Smart Contract #Rust #Next.js #TypeScript #i18next #Tailwind CSS #RWD',
         },
       ],
     },
