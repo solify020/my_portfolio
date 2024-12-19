@@ -1,8 +1,6 @@
 import { ASX_URL, MAVEN_URL, TUTTIFY_URL } from '../constants'
 import {
   maven,
-  mavenPageRirst,
-  mavenPageSecond,
   chowWow,
   chowWowFirst,
   chowWowSecond,
@@ -71,9 +69,9 @@ export const usePortfolioList = () => {
     {
       id: 3,
       link: MAVEN_URL,
-      srcPageFirst: mavenPageRirst,
-      srcPageSecond: mavenPageSecond,
-      src: maven,
+      srcPageFirst: '#',
+      srcPageSecond: '#',
+      src: '#',
       project: t('portfolio.projects.maven.NAME'),
       title: t('portfolio.projects.maven.DESCR'),
       description: t('portfolio.projects.maven.MAIN_INFO'),
