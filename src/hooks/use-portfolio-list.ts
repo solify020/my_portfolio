@@ -1,12 +1,12 @@
 import { ASX_URL, MAVEN_URL, TUTTIFY_URL } from '../constants'
 import {
-  maven,
   chowWow,
   chowWowFirst,
   chowWowSecond,
   betwie,
   betwieFirst,
-  betwieSecond
+  betwieSecond,
+  tradingBot
 } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { PortfolioListType } from '../types'
@@ -68,13 +68,13 @@ export const usePortfolioList = () => {
     },
     {
       id: 3,
-      link: MAVEN_URL,
+      link: '#',
       srcPageFirst: '#',
       srcPageSecond: '#',
-      src: '#',
-      project: t('portfolio.projects.maven.NAME'),
-      title: t('portfolio.projects.maven.DESCR'),
-      description: t('portfolio.projects.maven.MAIN_INFO'),
+      src: tradingBot,
+      project: "Crypto AnySniper",
+      title: "Crypto Trading Bot",
+      description: "#Copy Trading, #Wallet Crawling, #Token Sniping, Telegram, Discord bot.",
       about: [
         {
           paragraphFirst: {

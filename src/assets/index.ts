@@ -11,6 +11,7 @@ export {default as chowWowSecond} from './images/chow-wow-2.png'
 export {default as betwie} from './images/betwie.png'
 export {default as betwieFirst} from './images/betwie-1.png'
 export {default as betwieSecond} from './images/betwie-2.png'
+export {default as tradingBot} from './images/trading-bot.webp'
 
 export { default as soundSendMessage } from './sounds/telegram-sound-send.mp3'
 export { default as soundResponseMessage } from './sounds/telegram-sound-response.mp3'
