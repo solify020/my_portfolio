@@ -74,7 +74,7 @@ export const usePortfolioList = () => {
       src: tradingBot,
       project: "Crypto AnySniper",
       title: "Crypto Trading Bot",
-      description: "#Copy Trading, #Wallet Crawling, #Token Sniping, Telegram, Discord bot.",
+      description: "Copy Trading, Wallet Crawling, Token Sniping, Telegram, Discord bot.",
       about: [
         {
           paragraphFirst: {
