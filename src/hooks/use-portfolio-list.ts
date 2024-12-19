@@ -87,7 +87,7 @@ export const usePortfolioList = () => {
             textTwo: t('portfolio.projects.maven.about.p_2.TEXT_2'),
             textThree: t('portfolio.projects.maven.about.p_2.TEXT_3'),
           },
-          stack: '#HTML #JavaScript #SCSS #GSAP #Gulp',
+          stack: '#Web3 #Solidity #Rust #Solana #Ethereum #Sui',
         },
       ],
     },
