@@ -11,7 +11,7 @@
         "ONLINE_STATUS": "online",
         "HI": "Hi",
         "HOW_ARE_YOU": "How are you?",
-        "NAME": "Lesiu",
+        "NAME": "Solify",
         "setting_buttons": {
             "DELETE_CHAT": "Disconnect",
             "DELETE_CHAT_HISTORY": "Delete chat history",
@@ -29,7 +29,7 @@
         "PROJECTS": "Projects"
     },
     "header": {
-        "NAME": "Hi! I'm Lesiu",
+        "NAME": "Hi! I'm Solify",
         "PATH": "Blockchain",
         "SPECIALTY": "Developer",
         "DESCRIPTION": "Combining modern technology and creativity, I build websites and apps that will help you achieve your goals"
@@ -206,7 +206,7 @@
         },
         "mainPage": {
             "seo": {
-                "TITLE": "Blockchain Developer | Lesiu Simmons",
+                "TITLE": "Blockchain Developer | Solify",
                 "DISCOVER_MORE": "Discover more about my skills, projects, and work experience",
                 "THE_BEST": "The best Blockchain Developer in the world",
                 "PORTFOLIO_OF": "Portfolio of a Blockchain Developer"
