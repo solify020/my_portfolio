@@ -1,14 +1,14 @@
 import { ASX_URL, MAVEN_URL, TUTTIFY_URL } from '../constants'
 import {
-  asx,
-  asxPageFirst,
-  asxPageSecond,
   maven,
   mavenPageRirst,
   mavenPageSecond,
   chowWow,
   chowWowFirst,
-  chowWowSecond
+  chowWowSecond,
+  betwie,
+  betwieFirst,
+  betwieSecond
 } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { PortfolioListType } from '../types'
@@ -44,27 +44,27 @@ export const usePortfolioList = () => {
     },
     {
       id: 2,
-      link: ASX_URL,
-      srcPageFirst: asxPageFirst,
-      srcPageSecond: asxPageSecond,
-      src: asx,
+      link: 'https://betwie.online',
+      srcPageFirst: betwieFirst,
+      srcPageSecond: betwieSecond,
+      src: betwie,
       project: t('portfolio.projects.ASX.NAME'),
       title: t('portfolio.projects.ASX.DESCR'),
       description: t('portfolio.projects.ASX.MAIN_INFO'),
       about: [
         {
           paragraphFirst: {
-            textOne: t('portfolio.projects.ASX.about.p_1.TEXT_1'),
+            textOne: "Frontend and Backend - 1 developer, Sports Betting - 1 developer, Casino Game - 1 developer, DB Optimization - 1 developer",
             textTwo: t('portfolio.projects.ASX.about.p_1.TEXT_2'),
             textThree: t('portfolio.projects.ASX.about.p_1.TEXT_3'),
           },
           paragraphSecond: {
-            textOne: t('portfolio.projects.ASX.about.p_2.TEXT_1'),
-            textTwo: t('portfolio.projects.ASX.about.p_2.TEXT_2'),
-            textThree: t('portfolio.projects.ASX.about.p_2.TEXT_3'),
+            textOne: "The app is developed using React for the frontend part and Laravel for the backend part. And Node.js for Sports API integration",
+            textTwo: "Used BetsAPI and all the betting logic. Live sports and Upcoming 7 days sports. Multi sports like AFL, NFL, E-Sports, Snooker...",
+            textThree: "The most comfortable Admin Panel. Crypto and Fiat payment.",
           },
           stack:
-            '#Next #TypeScript #Redux Toolkit #RTK Query #Express #Stripe #SamSub #Keycloack #Radix UI',
+            '#Laravel #PHP #Mysql #React #Redux Toolkit #Node.js #Bets API #Stripe #Web3 #Material UI',
         },
       ],
     },
