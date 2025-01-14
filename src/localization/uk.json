@@ -218,25 +218,26 @@
             "RETURN_HOME": "Don't panic just click the big button to return home"
         },
         "aboutMe": {
-            "TITLE": "About me",
-            "HEY_NICE_MEET": "Hey! Nice to meet you",
-            "TECHNOLOGIES_SUB_TITLE": "The basic technologies I use in my work",
+            "TITLE": "About Me",
+            "HEY_NICE_MEET": "Hey! Nice to meet you.",
+            "TECHNOLOGIES_SUB_TITLE": "The Core Technologies I Use",
             "HOBBIES_SUB_TITLE": "Hobbies",
             "LANG_SUB_TITLE": "Languages",
-            "QUALITIES_SUB_TITLE": "Professional qualities",
-            "GOT_IN_DEV_SUB_TITLE": "How I got into development",
-            "MY_CAREER": "I'm a Blockchain developer with 4 years of commercial experience in creating applications of varying complexity. I always adhere to best development practices.",
-            "HOBBIES": "Sports, Musical Art, traveling, learning English, active leisure, and socializing with friends - these are the main aspects of my hobbies. I enjoy maintaining an active lifestyle, exploring new places, improving language skills, finding engaging ways to spend free time, and connecting with close friends.",
-            "DEVELOPMENT": "My passion for development began with small projects and experiments. Over time, I realized that I wanted to delve deeper into this field and made it my profession. I continued to learn, attended courses and workshops to expand my knowledge and skills. Now, I am happy to share my experience and help create unique and functional web applications.",
+            "QUALITIES_SUB_TITLE": "Professional Qualities",
+            "GOT_IN_DEV_SUB_TITLE": "My Journey into Development",
+            "MY_CAREER": "I am a Blockchain Developer with 6 years of commercial experience in building applications of varying complexity. I always adhere to best practices in development.",
+            "HOBBIES": "Sports, music, traveling, learning English, active leisure, and socializing with friends are my main hobbies. I enjoy maintaining an active lifestyle, exploring new places, improving my language skills, finding engaging ways to spend my free time, and connecting with close friends.",
+            "DEVELOPMENT": "My passion for development started with small projects and experiments. Over time, I realized my interest in diving deeper into this field and decided to make it my profession. I dedicated myself to learning, attended courses and workshops to enhance my skills, and now, I am thrilled to share my expertise and help create unique, functional web applications.",
             "QUALITIE_TEAMWORK": "Teamwork:",
-            "QUALITIE_TEAMWORK_TEXT": "experienced in working collaboratively with team members and communicating effectively with colleagues.",
+            "QUALITIE_TEAMWORK_TEXT": "Experienced in collaborating effectively with team members and communicating efficiently with colleagues.",
             "QUALITIE_ADAPTABILITY": "Adaptability:",
-            "QUALITIE_ADAPTABILITY_TEXT": "ready to work in a dynamic environment and make technical decisions to achieve common goals.",
-            "QUALITIE_LEARNING": "Continuous learning:",
-            "QUALITIE_LEARNING_TEXT": "committed to keeping up with industry trends and expanding technical skills.",
+            "QUALITIE_ADAPTABILITY_TEXT": "Able to work in a dynamic environment and make informed technical decisions to achieve shared goals.",
+            "QUALITIE_LEARNING": "Continuous Learning:",
+            "QUALITIE_LEARNING_TEXT": "Dedicated to staying updated with industry trends and continually expanding technical skills.",
             "seo": {
-                "TITLE": "About me"
+                "TITLE": "About Me"
             }
         }
+
     }
 }

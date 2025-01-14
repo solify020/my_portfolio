@@ -50,7 +50,7 @@ export const AboutMe = () => {
               <Paragraph>English: Intermediate</Paragraph>
             </li>
             <li className={styles.qualities}>
-              <Paragraph>Ukrainian: Native</Paragraph>
+              <Paragraph>Portugese: Native</Paragraph>
             </li>
           </ul>
         </article>
